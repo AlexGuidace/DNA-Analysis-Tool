@@ -103,7 +103,7 @@ def analyze_DNA(sequence, csv_arg):
             # we need to look at a range of indexes equivalent to the length of the STR "AGATC" to see if the next letters 
             # in our DNA sequence follow the same pattern of letters. To do this, we choose the (previous letter's (the 
             # variable "letter") index + the STR_length) as our starting point. 
-            # 
+            
             # This effectively makes it so the starting point of our next chunk analysis is the letter after our first chunk's 
             # letters. So if our first chunk analysis started at index 0 and ended at index 4, our next chunk analysis would 
             # start at index 5 and end at index 9; The chunk after that would start at index 10 and end at index 14. And so on 
