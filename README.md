@@ -23,9 +23,9 @@ Pictures of the application are below. Click them for larger versions.
 # Project Files
 The following links contain summary overviews of each file used in the project. Please refer to a file's code directly for specific implementation and details regarding that file.
 
-* [dna.py](#dna.py)
-* [database.csv](#database.csv)
-* [sequences.txt](#sequences.txt)
+* [dna.py](#dnapy)
+* [database.csv](#databasecsv)
+* [sequences.txt](#sequencestxt)
 
 ## dna.py
 This is the file that does all of the analyzing. It opens .csv and .txt files and contains functions that make comparisons between people's partial DNA and full DNA sequences.
